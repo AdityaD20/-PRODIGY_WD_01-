@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PRODIGY_WD_01</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.png" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+
+    <div class="overlay" data-overlay></div>
+
+    <div class="header-top">
+      <div class="container">
+
+        <a href="tel:+01123456790" class="helpline-box">
+
+          <div class="icon-box">
+            <ion-icon name="call-outline"></ion-icon>
+          </div>
+                              
+          <div class="wrapper">
+            <p class="helpline-title">For Further Inquires :</p>
+
+            <p class="helpline-number">+01 (123) 4567 90</p>
+          </div>
+
+        </a>
+
+        <a href="#" class="logo">
+          <img src="prodigylogo.png" alt=" " style="height: 60px; width: 90px;">
+        </a>
+
+        <div class="header-btn-group">
+
+          <button class="search-btn" aria-label="Search">
+            <ion-icon name="search"></ion-icon>
+          </button>
+
+          <button class="nav-open-btn" aria-label="Open Menu" data-nav-open-btn>
+            <ion-icon name="menu-outline"></ion-icon>
+          </button>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="header-bottom">
+      <div class="container">
+
+        <ul class="social-list">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+        <nav class="navbar" data-navbar>
+
+          <div class="navbar-top">
+
+            <a href="#" class="logo">
+              <img src="prodigylogo.png" alt="">
+            </a>
+
+            <button class="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+          </div>
+
+          <ul class="navbar-list">
+
+            <li>
+              <a href="#home" class="navbar-link" data-nav-link>home</a>
+            </li>
+
+            <li>
+              <a href="#" class="navbar-link" data-nav-link>about us</a>
+            </li>
+
+            <li>
+              <a href="#destination" class="navbar-link" data-nav-link>Tasks</a>
+            </li>
+
+            <li>
+              <a href="#package" class="navbar-link" data-nav-link>Internships</a>
+            </li>
+
+            <li>
+              <a href="#gallery" class="navbar-link" data-nav-link>gallery</a>
+            </li>
+
+            <li>
+              <a href="#contact" class="navbar-link" data-nav-link>contact us</a>
+            </li>
+
+          </ul>
+
+        </nav>
+
+        <button class="btn btn-primary">Enroll Now</button>
+
+      </div>
+    </div>
+
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero" id="home">
+        <div class="container">
+
+          <h2 class="h1 hero-title">Prodigy infoTech</h2>
+
+          <p class="hero-text">
+            web development,also known as website development,refers to the tasks associated with creating, building, and maintaining websites and web applications thats run online on a browser. 
+        This Responsive landing website was build by me using HTML,CSS & JS for prodigy internship assigment and submit to PRODIGY.
+          </p>
+
+          <div class="btn-group">
+            <button class="btn btn-primary">Learn more</button>
+
+            <button class="btn btn-secondary">Enroll now</button>
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - # SEARCH
+      -->
+
+      <section class="landing-search">
+        <div class="container">
+
+          <form action="" class="landing-search-form">
+
+            <div class="input-wrapper">
+              <label for="destination" class="input-label">Search Domain*</label>
+
+              <input type="text" name="destination" id="destination" required placeholder="Interested Domain"
+                class="input-field">
+            </div>
+
+            <div class="input-wrapper">
+              <label for="people" class="input-label">Age*</label>
+
+              <input type="number" name="people" id="people" required placeholder="Current Age" class="input-field">
+            </div>
+
+            <div class="input-wrapper">
+              <label for="checkin" class="input-label">Starting  Date**</label>
+
+              <input type="date" name="checkin" id="checkin" required class="input-field">
+            </div>
+
+            <div class="input-wrapper">
+              <label for="checkout" class="input-label">Ending  Date*</label>
+
+              <input type="date" name="checkout" id="checkout" required class="input-field">
+            </div>
+
+            <button type="submit" class="btn btn-secondary">Inquire now</button>
+
+          </form>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - # tasks  
+      -->
+
+      <section class="popular" id="destination">
+        <div class="container">
+
+          <p class="section-subtitle">INSTRUCTIONS</p>
+
+          <h2 class="h2 section-title">Popular Task's</h2>
+
+          <p class="section-text">
+            You should only start completing your tasks after your internship begins. The start date will be mentioned in your Offer Letter Mail. 
+              To be eligible for the Completion Certificate, it is mandatory to complete at least 2 Tasks in your internship track. To obtain a LoR, you need to complete 4 tasks.
+       
+          </p>
+
+          <ul class="popular-list">
+
+            <li>
+              <div class="popular-card">
+
+                <figure class="card-img">
+                  <img src="https://source.unsplash.com/1400x300/? websites,applications" class="d-block w-100" alt="San miguel, italy" loading="lazy">
+                <!---  <img src="./assets/images/popular-1.jpg" alt="San miguel, italy" loading="lazy">-->
+                </figure>
+
+                <div class="card-content" style="height: 260px;">
+
+                  <div class="card-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+
+                  <p class="card-subtitle">
+                    <a href="#">Task 01</a>
+                  </p>
+
+                  <h3 class="h3 card-title">
+                    <a href="#" style="color: red;">Responsive Landing Page</a>
+                  </h3>
+
+                  <p class="card-text" style="font-style: italic;">
+                    Build navigation menu with HTML, CSS & JavaScript that adjusts its background and text colors on scroll and hover. Ensure it stays fixed and visible across all pages. Customize colors and styles to your preference
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="popular-card">
+
+                <figure class="card-img">
+                  <img src="https://source.unsplash.com/1400x300/?timmer-clock, watchs" class="d-block w-100" alt="San miguel, italy" loading="lazy">
+                  <!--<img src="./assets/images/popular-2.jpg" alt="Burj khalifa, dubai" loading="lazy">-->
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+
+                  <p class="card-subtitle">
+                    <a href="#">Task 02</a>
+                  </p>
+
+                  <h3 class="h3 card-title">
+                    <a href="#" style="color: red;">Stopwatch Web Application </a>
+                  </h3>
+
+                  <p class="card-text" style="font-style: italic;">
+                    Build a stopwatch web app using HTML, CSS, and JavaScript. Implement start, pause, reset functions, and track lap times for an interactive user-friendly experience.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="popular-card">
+
+                <figure class="card-img">
+                  <img src="https://source.unsplash.com/1400x300/?tic-tac-toe game , puzzles" class="d-block w-100" alt="San miguel, italy" loading="lazy">
+                 <!--- <img src="./assets/images/popular-3.jpg" alt="Kyoto temple, japan" loading="lazy">-->
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+
+                  <p class="card-subtitle">
+                    <a href="#">Task 03</a>
+                  </p>
+
+                  <h3 class="h3 card-title">
+                    <a href="#" style="color: red;">Tic-Tac-Toe Web application</a>
+                  </h3>
+
+                  <p class="card-text" style="font-style: italic;">
+                  
+Build a tic-tac-toe web app using HTML,CSS,JavaScript. Implement user clicks, game state tracking, and win conditions for interactive play against users or AI opponent.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <button class="btn btn-primary">More Tasks</button>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #INTERNSHIPS
+      -->
+
+      <section class="package" id="package">
+        <div class="container">
+
+          <p class="section-subtitle">Popular Internship's</p>
+
+          <h2 class="h2 section-title">Checkout Our Internship's </h2>
+
+          <p class="section-text">
+            Our internships are available in a range of fields, including Web Development, Machine Learning, Data Science, and more.
+             Interns will have the chance to work on real-world projects, collaborate with teams, and gain valuable insights into their respective industries.
+
+
+          </p>
+
+          <ul class="package-list">
+
+            <li>
+              <div class="package-card">
+
+                <figure class="card-banner">
+                  <img src="https://source.unsplash.com/1400x300/? robots,AI-ML" class="d-block w-100" alt="Experience the great Machine Learning Internship" loading="lazy">
+            <!--      <img src="./assets/images/packege-1.jpg" alt="Experience The Great Holiday On Beach" loading="lazy">-->
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Machine Learning Internship</h3>
+
+                  <p class="card-text">
+                  Overview , Data Analysis , Supervised Learning , Unsupervised Learning , Deep Learning ,...
+                  </p>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="time"></ion-icon>
+
+                        <p class="text">230hr</p>
+                      </div>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="people"></ion-icon>
+
+                        <p class="text">no: 1</p>
+                      </div>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="location"></ion-icon>
+
+                        <p class="text">All world</p>
+                      </div>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+                <div class="card-price">
+
+                  <div class="wrapper">
+
+                    <p class="reviews">(125 reviews)</p>
+
+                    <div class="card-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+
+                  </div>
+
+                  <p class="price">
+                    FREE
+                    <span>(based on interview / resume)</span>
+                  </p>
+
+                  <button class="btn btn-secondary">Enroll Now</button>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="package-card">
+
+                <figure class="card-banner">
+                  <img src="https://source.unsplash.com/1400x300/? animations, computer network" class="d-block w-100" alt="Experience the great Machine Learning Internship" loading="lazy">
+                <!---  <img src="./assets/images/packege-2.jpg" alt="Summer Holiday To The Oxolotan River" loading="lazy">-->
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Web Dev Internship</h3>
+
+                  <p class="card-text">
+                    Overview , HTML5 , CSS3 , Javascript , Responsive Website , Web Applications ,.....
+                  </p>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="time"></ion-icon>
+
+                        <p class="text">400hr</p>
+                      </div>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="people"></ion-icon>
+
+                        <p class="text">no: 10</p>
+                      </div>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="location"></ion-icon>
+
+                        <p class="text">All world</p>
+                      </div>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+                <div class="card-price">
+
+                  <div class="wrapper">
+
+                    <p class="reviews">(280 reviews)</p>
+
+                    <div class="card-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+
+                  </div>
+
+                  <p class="price">
+                    FREE
+                    <span>(based on interview / resume)</span>
+                  </p>
+
+                  <button class="btn btn-secondary">Enroll Now</button>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="package-card">
+
+                <figure class="card-banner">
+                  <img src="https://source.unsplash.com/1400x300/? computer charts, graphs" class="d-block w-100" alt="Experience the great Machine Learning Internship" loading="lazy">
+               <!---   <img src="./assets/images/packege-3.jpg" alt="Santorini Island's Weekend Vacation" loading="lazy">-->
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Data Science Internship</h3>
+
+                  <p class="card-text">
+                     Overview , EDA , Data Pre-processing , Data Visualization , BI Tools ,....
+                  </p>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="time"></ion-icon>
+
+                        <p class="text">170hr</p>
+                      </div>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="people"></ion-icon>
+
+                        <p class="text">no: 15</p>
+                      </div>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="location"></ion-icon>
+
+                        <p class="text">All world</p>
+                      </div>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+                <div class="card-price">
+
+                  <div class="wrapper">
+
+                    <p class="reviews">(140 reviews)</p>
+
+                    <div class="card-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+
+                  </div>
+
+                  <p class="price">
+                    FREE
+                    <span>(based on interview / resume)</span>
+                  </p>
+
+                  <button class="btn btn-secondary">Enroll Now</button>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <button class="btn btn-primary">View All Internship's</button>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #GALLERY
+      -->
+
+      <section class="gallery" id="gallery">
+        <div class="container">
+
+          <p class="section-subtitle">Photo Gallery</p>
+
+          <h2 class="h2 section-title">Photo's From  Workforce-Members</h2>
+
+          <p class="section-text">
+           
+Introduce your journey of success through our interactive gallery, where employees and students proudly share photos of their certificate achievements and noteworthy milestones. This vibrant space serves as a testament to dedication and accomplishment, showcasing the impressive feats of our talented community. Join us in celebrating success and motivation!
+          </p>
+
+          <ul class="gallery-list">
+
+            <li class="gallery-item">
+              <figure class="gallery-image">
+                <img src="https://source.unsplash.com/1800x1200/? payment, office metting" alt="Gallery image">
+              </figure>
+            </li>
+
+            <li class="gallery-item">
+              <figure class="gallery-image">
+                <img src="https://source.unsplash.com/1800x1000/? office, salary" alt="Gallery image">
+              </figure>
+            </li>
+
+            <li class="gallery-item">
+              <figure class="gallery-image">
+                <img src=" https://source.unsplash.com/1800x1200/? letter , success" alt="Gallery image">
+              </figure>
+            </li>
+
+            <li class="gallery-item">
+              <figure class="gallery-image">
+                <img src="https://source.unsplash.com/1800x1300/? computer-trainning, leaderships" alt="Gallery image">
+              </figure>
+            </li>
+
+            <li class="gallery-item">
+              <figure class="gallery-image">
+                <img src="https://source.unsplash.com/1800x1200/? certificates, trophy" alt="Gallery image">
+              </figure>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #contact
+      -->
+
+      <section class="cta" id="contact">
+        <div class="container">
+
+          <div class="cta-content">
+            <p class="section-subtitle">Call To Action</p>
+
+            <h2 class="h2 section-title">Let's talk about, Love to hear from you! Remember Us!</h2>
+
+            <p class="section-text">
+              If you have any more doubts or questions about your internship program, please don't hesitate to reach out to us.
+               We want you to have a successful and rewarding experience during your internship, 
+              and we are here to support you throughout the process.
+            </p>
+          </div>
+
+          <button class="btn btn-secondary">Contact Us !</button>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+
+    <div class="footer-top">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">
+            <img src="prodigylogo.png" alt="Tourly logo">
+          </a>
+
+          <p class="footer-text">
+            An EdTech Startup built by a team of passionate educators and entrepreneurs who are commited to transforming the way people learn and grow.
+          </p>
+
+        </div>
+
+        <div class="footer-contact">
+
+          <h4 class="contact-title">Contact Us</h4>
+
+          <p class="contact-text">
+            Feel free to contact and reach us !!
+          </p>
+
+          <ul>
+
+            <li class="contact-item">
+              <ion-icon name="call-outline"></ion-icon>
+
+              <a href="tel:+01123456790" class="contact-link">+01 (123) 4567 90</a>
+            </li>
+
+            <li class="contact-item">
+              <ion-icon name="mail-outline"></ion-icon>
+
+              <a href="mailto:info.tourly.com" class="contact-link">contact@prodigyinfotech.dev</a>
+            </li>
+
+            <li class="contact-item">
+              <ion-icon name="location-outline"></ion-icon>
+
+              <address>Mumbai,Maharastra,India</address>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <div class="footer-form">
+
+          <p class="form-text">
+            Subscribe our community for more update & news !!
+          </p>
+
+          <form action="" class="form-wrapper">
+            <input type="email" name="email" class="input-field" placeholder="Enter Your Email" required>
+
+            <button type="submit" class="btn btn-secondary">Subscribe</button>
+          </form>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          &copy; 2023 <a href="">PRODIGY_WD_01</a>. All rights reserved
+        </p>
+
+        <ul class="footer-bottom-list">
+
+          <li>
+            <a href="#" class="footer-bottom-link">Privacy Policy</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-bottom-link">Term & Condition</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-bottom-link">FAQ</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #GO TO TOP
+  -->
+
+  <a href="#top" class="go-top" data-go-top>
+    <ion-icon name="chevron-up-outline"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
